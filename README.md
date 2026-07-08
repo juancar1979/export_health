@@ -291,13 +291,13 @@ Si no aparece, probablemente estás ejecutando una copia antigua de `exportar_sa
 Ruta al archivo `export.xml` o a la carpeta `apple_health_export`.
 
 ```bat
-python exportar_salud_completo.py --xml "C:\Users\juanc\Downloads\salud\apple_health_export\export.xml"
+python exportar_salud_completo.py --xml "C:\Users\user\salud\apple_health_export\export.xml"
 ```
 
 También vale indicar la carpeta:
 
 ```bat
-python exportar_salud_completo.py --xml "C:\Users\juanc\Downloads\salud\apple_health_export"
+python exportar_salud_completo.py --xml "C:\Users\user\salud\apple_health_export"
 ```
 
 ---
@@ -862,5 +862,5 @@ Recomendación: guárdalos en una ubicación privada y bórralos si ya no los ne
 Ejemplo con carpeta `apple_health_export`, rango largo y detalle horario:
 
 ```bat
-python exportar_salud_completo.py --xml "C:\Users\juanc\OneDrive\Personal\salud\apple_health_export" --inicio 2024-06-01 --fin 2026-06-30 --detalle hora --salida salud_202606_v3.xlsx
+python exportar_salud_completo.py --xml "C:\Users\user\salud\apple_health_export" --inicio 2026-06-01 --fin 2026-06-30 --detalle hora --salida salud_202606_v3.xlsx
 ```
